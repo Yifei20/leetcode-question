@@ -3,9 +3,9 @@ package leetcode.editor.cn;
 class RemoveDuplicatesFromSortedArray{
     public static void main(String[] args) {
         Solution solution = new RemoveDuplicatesFromSortedArray().new Solution();
-        
+        System.out.println(solution.removeDuplicates(new int[] {1, 1, 2}));
     }
-    
+
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int removeDuplicates(int[] nums) {
